@@ -9,9 +9,9 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Abdullah Al Maruf </span>
-            from <span className="purple"> Dhaka, Baangladesh.</span>
+            from <span className="purple"> Dhaka, Bangladesh.</span>
             <br />
-            I am currently in my final year at Daffodil Institute of IT.
+            I have completed my B.Sc in Computer Science and Engineering from Daffodil Institute of IT.
            
             <br />
             <br />

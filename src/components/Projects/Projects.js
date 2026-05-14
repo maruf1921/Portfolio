@@ -23,34 +23,11 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
-              isBlog={false}
-              title="E-Commerce Website"
-              description="This is an e-commerce website built with JavaScript, HTML, CSS, Node.js, Express, and MongoDB. The website allows users to view products, add products to their cart, and manage their accounts."
-              ghLink="https://github.com/maruf1921/online_shop"
-              
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={bitsOfCode}
-              isBlog={false}
-              title="Housing Data Exploration & Prediction with ML"
-              description="A machine learning model designed to predict house prices based on various features like location, size, and market trends. The project leverages regression techniques and data analysis to provide accurate property value estimates."
-              ghLink="https://github.com/maruf1921/house_price_ML"
-              demoLink="https://housepricestramlit.streamlit.app/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Fast Food Nutritional Analysis"
-              description="A thorough analysis of fast food items and their nutritional profiles across US restaurants, including data cleaning, comparison, and ranking based on nutritional values. The project also identifies healthier options and visualizes nutritional distributions and trends."
-              ghLink="https://github.com/maruf1921/Fast-Food-Nutritional-Analysis"
-                            
+              title="EcoSync"
+              description="A containerized full-stack resource management system designed to streamline resource synchronization and data management. Built with Node.js and SQL, the entire environment is orchestrated using Docker for seamless deployment and scalability."
+              ghLink="https://github.com/maruf1921/CS24-P2-DIIT_RUNTIME_TERROR"
             />
           </Col>
 
@@ -58,12 +35,30 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="YouTube-Video-Downloader"
-              description="YouTube, the second most popular global website, is widely recognized as the top video hosting platform. However, there are limitations to directly downloading videos from YouTube.
+              title="Ocular Disease Detection"
+              description="A high-complexity AI project focusing on medical image classification. Using Deep Learning and advanced neural networks, this system detects and classifies various ocular diseases, demonstrating the power of AI in healthcare diagnostics."
+              ghLink="https://github.com/maruf1921/OCULAR-DISEASES-DETECTION-AND-CLASSIFICATION-USING-DEEP-LEARNING-"
+              demoLink="https://ocular-diseases-detection-and-cq1s.onrender.com/"
+            />
+          </Col>
 
-This is a simple YouTube video downloader that allows you to download videos from YouTube in a variety of formats."
-              ghLink="https://github.com/maruf1921/YouTube-Video-Downloader"
-              
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatify}
+              isBlog={false}
+              title="Full-Stack E-Commerce Ecosystem"
+              description="A comprehensive MERN stack platform featuring secure JWT authentication, dynamic product management with Multer image uploads, and a responsive frontend with a persistent shopping cart and admin dashboard."
+              ghLink="https://github.com/maruf1921/ONLINE_SHOP"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bitsOfCode}
+              isBlog={false}
+              title="Multilingual RAG System"
+              description="An advanced AI system implementing Retrieval-Augmented Generation (RAG). It enables efficient querying and information retrieval across multiple languages using modern vector databases and large language models (LLMs)."
+              ghLink="https://github.com/maruf1921/MULTILINGUAL-RAG-SYSTEM"
             />
           </Col>
 
@@ -71,10 +66,9 @@ This is a simple YouTube video downloader that allows you to download videos fro
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Morse-Code"
-              description="Morse code is a method used in telecommunication to encode text characters as standardized sequences of two different signal durations, called dots and dashes, or dits and dahs."
-              ghLink="https://github.com/maruf1921/Morse-Code"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="English AI Conversation Buddy"
+              description="An AI-driven interactive tool built with TypeScript to help users practice English conversation. It bridges the gap between AI language models and intuitive web interfaces for a seamless learning experience."
+              ghLink="https://github.com/maruf1921/ENGLISH-AI-CONVERSATION-BUDDY"
             />
           </Col>
 
@@ -82,11 +76,9 @@ This is a simple YouTube video downloader that allows you to download videos fro
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Internet Speed Test"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/maruf1921/Internet-Speed-Test"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Turf Booking Website"
+              description="A functional web application built with JavaScript for managing turf bookings. It handles complex booking logic, scheduling, and user coordination, demonstrating robust full-stack web development capabilities."
+              ghLink="https://github.com/maruf1921/TURF_BOOKING_WEBSITE"
             />
           </Col>
         </Row>
